@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Trispace:wght@500&display=swap);
+
+* {
+    font-family: 'Trispace', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth ;
+}
+
+body{
+    
+}
+/* Barre de navigation*/
+
+header {
+    position: absolute;
+
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    background-color: #ffcb06;  
+    box-shadow: 0 10px 20px rgba(50,50,50,.95);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.logo{
+    width: 250px;
+    margin-top: 0px;  
+    margin-right: 400px;
+    padding: 10px;
+} 
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+
+ .nav-links li {
+    overflow: hidden;
+    padding: 40px;
+} 
+
+ .nav-links a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+     color:#303192; 
+    text-decoration: none;
+    display: block;
+    transition: transform 0.5s;
+    
+} 
+
+.nav-links a:hover {
+    color:  #00b6f0;
+    background-color: #303192;
+    border-radius: 15px;
+    transform: scale(1.5); 
+}
+
+.top-page{
+    background-color: #a0afb6;
+}
+
+/* page de bienvenue (landing page) */
+
+
+  .container img {
+    margin-top: 100px;  
+    width: 99%; 
+    height: 790px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 99%;
+    height: 790px;
+} 
+
+.big-title {
+     
+    top: 330px; 
+    left: 60px; 
+    width: 99%; 
+    height: 470px;
+    font-weight: 800;
+    font-size: 70px;
+} 
+
+ .scroll-down {
+    color: #16213e;
+    text-decoration: none;
+    bottom: 0;
+    font-weight: 700;
+}  
+
+
+
+/* .services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+} */
+
+/* .service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
+
+/* .icon {
+    width: 70px;
+} */
+
+/* .service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}  */
+
+
+
+
+ 
+
+/* pied de page */
+
+ /* footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
